@@ -1,0 +1,25 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 200px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 6%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
